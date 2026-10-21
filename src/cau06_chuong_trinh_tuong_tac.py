@@ -1,0 +1,11 @@
+ma_phien = input("nhap ma phien:")
+ma_may = input("nhap ma may:")
+cong_suat_w = float(input("nhap cong suat(W)"))
+so_phut = float(input("nhap so phut su dung:"))
+don_gia = float(input("nhap don gia:"))
+dien_nang = (cong_suat_w/1000) * (so_phut/60)
+chi_phi = dien_nang * don_gia
+print(f"ma phien: {ma_phien}")
+print(f"may: {ma_may}")
+print(f"dien nang: {dien_nang}")
+print(f"chi phi: {chi_phi}")
