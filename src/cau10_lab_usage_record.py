@@ -1,6 +1,11 @@
+
+
+
+
 from datetime import datetime
 ma_phien = input("nhap ma phien: ")
 ma_may = input("nhap ma may: ")
+phong_lab = input("nhap phong lab: ")
 cong_suat_w = float(input("nhap cong suat thiet bi (W): "))
 thoi_gian_phut = float(input("nhap thoi ian su dung (phut): "))
 don_gia = float(input("nhap don gia dien (VND/kWh): "))
@@ -11,6 +16,7 @@ thoi_diem_hien_tai = datetime.now()
 thoi_diem_text = thoi_diem_hien_tai.strftime("%Y-%m-%d %H:%M:%S")
 print(f"ma phien: {ma_phien}")
 print(f"may: {ma_may}")
+print(f"phong lab: {phong_lab}")
 print(f"cong suat: {cong_suat_w:.2f} W")
 print(f"thoi luong: {int(thoi_gian_phut)} phut")
 print(f"dien nang: {dien_nang_kwh} kwh")
